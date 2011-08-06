@@ -14,6 +14,7 @@ def main(argv):
         print 'try something like this:'
         print
         print 'python fsplay.py /full/path/to/file'
+        exit()
 
     filename = 'output' + str(random.random() * 100000) + '.wav'
     outputfile = wave.open(filename, 'w')
